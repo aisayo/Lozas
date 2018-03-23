@@ -12,6 +12,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -429,6 +430,16 @@ h6,
   font-family: 'Lora', serif;
   font-size: 100px;
 }
+#msg-box5-i H3 {
+  color: #efefef;
+  text-align: left;
+  font-size: 30px;
+}
+#msg-box5-i P {
+  text-align: left;
+  font-size: 12px;
+  color: #ffffff;
+}
 #header1-7 .mbr-section-lead {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -473,6 +484,68 @@ h6,
 #social-buttons4-f .mbr-section-title {
   font-size: 16px;
   font-family: 'Lora', serif;
+}
+#ext_menu-h .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-h .navbar-caption {
+  color: #ffffff;
+}
+#ext_menu-h .navbar-toggler {
+  color: #efefef;
+}
+#ext_menu-h .close-icon::before,
+#ext_menu-h .close-icon::after {
+  background-color: #efefef;
+}
+#ext_menu-h .link,
+#ext_menu-h .dropdown-item {
+  color: #efefef;
+  font-family: 'Lato', sans-serif;
+}
+#ext_menu-h .link {
+  font-size: 0.75rem;
+}
+#ext_menu-h .dropdown-item,
+#ext_menu-h .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#ext_menu-h .link:hover,
+#ext_menu-h .dropdown-item:hover,
+#ext_menu-h .link:focus,
+#ext_menu-h .dropdown-item:focus {
+  color: #bda1a1;
+}
+#ext_menu-h .link[aria-expanded="true"],
+#ext_menu-h .dropdown-menu {
+  background: #a88383;
+}
+#ext_menu-h .nav-dropdown-sm .link:focus,
+#ext_menu-h .nav-dropdown-sm .link:hover,
+#ext_menu-h .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-h .nav-dropdown-sm .dropdown-item:hover {
+  background: #b79898!important;
+}
+#ext_menu-h .navbar,
+#ext_menu-h .nav-dropdown-sm,
+#ext_menu-h .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-h .nav-dropdown-sm .dropdown-menu {
+  background: #bda1a1;
+}
+#ext_menu-h .bg-color.transparent .link {
+  color: #efefef;
+  transition: none;
+}
+#ext_menu-h .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-h .bg-color.transparent.opened .link:hover,
+#ext_menu-h .bg-color.transparent.opened .link:focus {
+  color: #bda1a1;
+}
+#ext_menu-h .link[aria-expanded="true"],
+#ext_menu-h .dropdown-item[aria-expanded="true"] {
+  color: #bda1a1!important;
 }
 #menu-6 .hide-buttons .nav-btn {
   display: none !important;
